@@ -1,8 +1,8 @@
-name: Build and Test in Develop
+name: Build and Test in Staging
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: [ "staging" ]
 
 jobs:
   build:
